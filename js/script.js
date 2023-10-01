@@ -23,15 +23,15 @@ btn3.addEventListener("click", function () {
 });
                     btn4.addEventListener("click", function () {
                         if (d1.checked) {
-                            alert("Питання 3: Це правильна відповідь!");
+                            alert("Питання 4: Це правильна відповідь!");
                         } else {
-                            alert("Питання 3: Спробуй ще раз!");
+                            alert("Питання 4: Спробуй ще раз!");
                         }
                     });
                     btn5.addEventListener("click", function () {
                         if (e5.checked) {
-                            alert("Питання 3: Відмінно!");
+                            alert("Питання 5: Відмінно!");
                         } else {
-                            alert("Питання 3: Подумайте ще!");
+                            alert("Питання 5: Подумайте ще!");
                         }
                     });
