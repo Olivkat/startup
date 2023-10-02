@@ -53,27 +53,26 @@
                 <h2 class="question">Калькулятор ROI</h2>
                 <br>
                 <div class="wrapper">
-                    <input type="text" id="input_a"placeholder="Сума витрат">
-                    <input type="text" id="input_b"placeholder="Сума доходів">
-                    <input type="text" id="input_c"placeholder="% ROI">
-                    <button id="btn">Розрахувати</button>
+                    <input class="plate" type="number" id="input_a"placeholder="Сума витрат">
+                    <input class="plate" type="number" id="input_b"placeholder="Сума доходів">
+                    <input class="plate" type="text" id="input_c"placeholder="% ROI">
+                    <button class="button" id="btn">Розрахувати</button>
                 </div>
-                <script>
-                    function fnc() {
-                        let a = parseInt(input_a.value);
-                        let b = parseInt(input_b.value);
-                        let c = ((b - a) / a) * 100;
-                        input_c.value = c +" %";
-                        console.log(c);
-                    }
-                    btn.addEventListener("click", fnc);
-                </script>
-<div class="picture"><img src="https://blog.obelixmarketing.com/wp-content/uploads/2021/07/roi.png" alt="Логотип" class="picture">
+                <script src="script1.js"></script>
+<div class="picture"><img src="https://blog.obelixmarketing.com/wp-content/uploads/2021/07/roi.png" alt="Логотип" class="picture"></div>
+    
+    <h2 class="question">Оцінка ROI</h2>
+    <p class="article">
+    <label class="text" for="digit">ROI:</label><input class="plate" type="number" id="digit">
+   
+    <button class="button" id="btn6">Відповідь</button>
+    <p class = article id="result"></p> </p>
+    <script src="script2.js"></script>
             </article>
         </main>
         <footer>Усі права захищені</footer>
 
-    </div>
+    
 </body>
 
 </html>
